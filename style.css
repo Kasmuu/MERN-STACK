@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8a9a9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff7f7f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #ef7676;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.tbody{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    grid: 1fr 1fr 1fr;
+    border-radius: 90px;
+    margin: 0%;
+    column-span: all;
+    row-gap: 40px;
+}
+
+
+.aboutme{
+    font-family: "Poppins";
+    font-size: 20px;
+    align-content: center;
+    justify-items: center;
+    margin: 0%;
+    padding: 0%;
+    column-span: all;
+    row-gap: 5px;
+    column-width: auto;
+    text-align:center;
+
+}
+
+.h3{
+        font-family: "Poppins";
+        font-size: 30px;
+        align-content: space-around;
+}
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 0%;
+    column-span: all;
+    row-gap: 40px;
+}
+
+footer {
+    background-color: #ff8c8c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.footer-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #f0f0f0;
+}
+
+
